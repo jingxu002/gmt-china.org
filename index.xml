@@ -9,8 +9,52 @@
     <managingEditor>admin@gmt-china.org (GMT 中文社区)</managingEditor>
     <webMaster>admin@gmt-china.org (GMT 中文社区)</webMaster>
     <copyright>Powered by [Hugo](https://gohugo.io) &amp; Hosted by [GitHub](https://github.com/gmt-china/gmt-china.org).</copyright>
-    <lastBuildDate>Thu, 17 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Nov 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://gmt-china.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>全球地形起伏数据: ETOPO1</title>
+      <link>http://gmt-china.org/blog/etopo1/</link>
+      <pubDate>Wed, 23 Nov 2016 00:00:00 +0000</pubDate>
+      <author>admin@gmt-china.org (GMT 中文社区)</author>
+      <guid>http://gmt-china.org/blog/etopo1/</guid>
+      <description>
+
+&lt;p&gt;ETOPO1 是分辨率为 1 弧分的全球地形起伏数据，其包含了陆地高程和海洋水深的数据。&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;官方主页： &lt;a href=&#34;http://www.ngdc.noaa.gov/mgg/global/global.html&#34; target=&#34;_blank&#34;&gt;http://www.ngdc.noaa.gov/mgg/global/global.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ETOPO1 全球地形起伏数据有两个版本，两个版本的主要区别在于南极洲和格林兰岛的高程。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;ETOPO1 IceSurface: 在南极和格林兰岛，以冰层顶部作为地球表面&lt;/li&gt;
+&lt;li&gt;ETOPO1 Bedrock: 在南极和格林兰岛，以冰层下的基岩作为地球表面&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;ETOPO1 以 WGS84 地理坐标系作为水平基准，以海平面作为垂直基准。&lt;/p&gt;
+
+&lt;p&gt;数据覆盖了全球（即180W-180E、90°S-90°N范围），数据为使用网格线配准方式，共计 21601*10801个 数据点。&lt;/p&gt;
+
+&lt;p&gt;官方网站提供了 netCDF、binary、XYZ 和 GeoTiff 格式数据的下载。&lt;/p&gt;
+
+&lt;h2 id=&#34;本站下载&#34;&gt;本站下载&lt;/h2&gt;
+
+&lt;p&gt;为了方便社区用户，我们从官方网站下载了 netCDF 格式的 ETOPO1 数据，并提供了百度云盘下载。&lt;/p&gt;
+
+&lt;p&gt;下载地址： &lt;a href=&#34;https://pan.baidu.com/s/1crEDLs&#34; target=&#34;_blank&#34;&gt;https://pan.baidu.com/s/1crEDLs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;网盘中包含了如下文件：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ETOPO1_Bed.grd&lt;/code&gt;: ETOPO1 Bedrock 版本 netCDF 格式的数据，可直接在 GMT 中使用&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ETOPO1_Ice.grd&lt;/code&gt;: ETOPO1 IceSurface 版本 netCDF 格式的数据，可直接在 GMT 中使用&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;为了减少数据下载时间，网盘中还提供了 zip、tgz 和 rar 格式的压缩文件，用户可根据自己的实际情况按需下载。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>GDAL/OGR: 地理空间数据格式转换神器</title>
@@ -914,27 +958,6 @@ rm gmt.* $CPT
     
 &lt;/figure&gt;
 
-</description>
-    </item>
-    
-    <item>
-      <title>GMT中文社区首次线下培训</title>
-      <link>http://gmt-china.org/blog/GMTCon-20160921/</link>
-      <pubDate>Sun, 25 Sep 2016 00:00:00 +0000</pubDate>
-      <author>admin@gmt-china.org (GMT 中文社区)</author>
-      <guid>http://gmt-china.org/blog/GMTCon-20160921/</guid>
-      <description>&lt;p&gt;2016年9月21至22日，GMT中文社区协同中国地震局地震研究所和中国地震局地壳形变学科技术管理组举行了首次GMT线下培训活动。&lt;/p&gt;
-
-&lt;p&gt;此次培训邀请了田冬冬（中国科学技术大学在读博士，社区 ID：知名不具）、单斌（中国地质大学特任教授，社区 ID：Bins）和刘珠妹（中国地震局地震研究所，社区 ID：忆尤）三位老师在湖北省地震局21楼报告厅做了《GMT入门、基础及进阶》、《GMT应用与科技论文写作》、《地学常见GMT图件模板讲解》专题培训讲座，来自全国地震系统的学员和慕名人士共计120余人参加了此次培训。&lt;/p&gt;
-
-&lt;p&gt;此次培训考虑到培训人员GMT操作能力差异巨大，为了尽可能地照顾到所有培训人员的需求，经过一个月精心调研准备，从内容、思路、绘图技巧等方面综合考虑，确定了此次GMT专题讲座的最终主题。21日上午田冬冬博士首先介绍了GMT的概念、开发团队、GMT的版本等，随后对GMT基础知识、配置文件、常用命令进行了详细讲解，最后总结了GMT学习方法及学习资源，对GMT中文社区创建初衷、社区功能、未来发展等做了阐述，并呼吁各位仁人志士加入到GMT社区的设计和日常维护中。单斌教授对GMT做了简单介绍，随后深入浅出的介绍了GMT常用选项、常用命令、shell脚本编写等，并对GMT在科技论文中的应用做了具体实例讲解，提供了科技论文写作技巧。最后具神指出了GMT5和GMT4的语法命令区别，对学习兴趣、专业优势等和大家做了深入分享交流。22日下午刘珠妹老师对地学常见GMT图件模板进行了讲解，刘老师首先讲授了怎样读懂脚本的使用平台、脚本版本、脚本结构等内容，然后讲授了编写绘图脚本的6个基本步骤，介绍了自由空气异常图、布格异常图等几种常用绘图模板，讨论了中文支持、脚本批量运行、二次开发等GMT绘图技巧，刘老师强调在学习过程中，应对照样例修改参数，具体问题具体分析，带着问题去找答案。&lt;/p&gt;
-
-&lt;p&gt;此次GMT专题培训授课内容全面、专题性比较强、课程安排比较合理，通过此次培训，推广了GMT的使用范围，提高了GMT软件在日常工作中实际操作应用能力，促进了GMT群和GMT中文社区的未来更快更好发展，加强了GMT群成员的交流，此次培训取得了预期效果，期待下一次培训的召开。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://gmt-china.org/images/GMTCon20160921-1.jpg&#34; alt=&#34;田冬冬&#34; /&gt;
-&lt;img src=&#34;http://gmt-china.org/images/GMTCon20160921-2.jpg&#34; alt=&#34;单斌&#34; /&gt;
-&lt;img src=&#34;http://gmt-china.org/images/GMTCon20160921-3.jpg&#34; alt=&#34;刘珠妹&#34; /&gt;
-&lt;img src=&#34;http://gmt-china.org/images/GMTCon20160921-4.jpg&#34; alt=&#34;现场互动&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     

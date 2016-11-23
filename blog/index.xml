@@ -9,8 +9,52 @@
     <managingEditor>admin@gmt-china.org (GMT 中文社区)</managingEditor>
     <webMaster>admin@gmt-china.org (GMT 中文社区)</webMaster>
     <copyright>Powered by [Hugo](https://gohugo.io) &amp; Hosted by [GitHub](https://github.com/gmt-china/gmt-china.org).</copyright>
-    <lastBuildDate>Thu, 17 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Nov 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://gmt-china.org/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>全球地形起伏数据: ETOPO1</title>
+      <link>http://gmt-china.org/blog/etopo1/</link>
+      <pubDate>Wed, 23 Nov 2016 00:00:00 +0000</pubDate>
+      <author>admin@gmt-china.org (GMT 中文社区)</author>
+      <guid>http://gmt-china.org/blog/etopo1/</guid>
+      <description>
+
+&lt;p&gt;ETOPO1 是分辨率为 1 弧分的全球地形起伏数据，其包含了陆地高程和海洋水深的数据。&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;官方主页： &lt;a href=&#34;http://www.ngdc.noaa.gov/mgg/global/global.html&#34; target=&#34;_blank&#34;&gt;http://www.ngdc.noaa.gov/mgg/global/global.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ETOPO1 全球地形起伏数据有两个版本，两个版本的主要区别在于南极洲和格林兰岛的高程。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;ETOPO1 IceSurface: 在南极和格林兰岛，以冰层顶部作为地球表面&lt;/li&gt;
+&lt;li&gt;ETOPO1 Bedrock: 在南极和格林兰岛，以冰层下的基岩作为地球表面&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;ETOPO1 以 WGS84 地理坐标系作为水平基准，以海平面作为垂直基准。&lt;/p&gt;
+
+&lt;p&gt;数据覆盖了全球（即180W-180E、90°S-90°N范围），数据为使用网格线配准方式，共计 21601*10801个 数据点。&lt;/p&gt;
+
+&lt;p&gt;官方网站提供了 netCDF、binary、XYZ 和 GeoTiff 格式数据的下载。&lt;/p&gt;
+
+&lt;h2 id=&#34;本站下载&#34;&gt;本站下载&lt;/h2&gt;
+
+&lt;p&gt;为了方便社区用户，我们从官方网站下载了 netCDF 格式的 ETOPO1 数据，并提供了百度云盘下载。&lt;/p&gt;
+
+&lt;p&gt;下载地址： &lt;a href=&#34;https://pan.baidu.com/s/1crEDLs&#34; target=&#34;_blank&#34;&gt;https://pan.baidu.com/s/1crEDLs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;网盘中包含了如下文件：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ETOPO1_Bed.grd&lt;/code&gt;: ETOPO1 Bedrock 版本 netCDF 格式的数据，可直接在 GMT 中使用&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ETOPO1_Ice.grd&lt;/code&gt;: ETOPO1 IceSurface 版本 netCDF 格式的数据，可直接在 GMT 中使用&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;为了减少数据下载时间，网盘中还提供了 zip、tgz 和 rar 格式的压缩文件，用户可根据自己的实际情况按需下载。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>GDAL/OGR: 地理空间数据格式转换神器</title>
