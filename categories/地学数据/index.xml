@@ -12,6 +12,41 @@
     <atom:link href="http://gmt-china.org/categories/%E5%9C%B0%E5%AD%A6%E6%95%B0%E6%8D%AE/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>全球地形起伏数据: GEBCO</title>
+      <link>http://gmt-china.org/blog/gebco/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      <author>admin@gmt-china.org (GMT 中文社区)</author>
+      <guid>http://gmt-china.org/blog/gebco/</guid>
+      <description>
+
+&lt;p&gt;GEBCO 全称 General Bathymetric Chart of the Oceans，给出了全球海水深度数据。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;官方网站： &lt;a href=&#34;http://www.gebco.net&#34; target=&#34;_blank&#34;&gt;http://www.gebco.net&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;数据精度： 30 弧秒&lt;/li&gt;
+&lt;li&gt;数据格式： netCDF&lt;/li&gt;
+&lt;li&gt;官方下载地址： &lt;a href=&#34;http://www.bodc.ac.uk/data/online_delivery/gebco/&#34; target=&#34;_blank&#34;&gt;http://www.bodc.ac.uk/data/online_delivery/gebco/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;GEBCO 数据中包含了陆地高程和海水深度数据&lt;/li&gt;
+&lt;li&gt;陆地高程数据来自于 SRTM30 和 GTOPO30 等&lt;/li&gt;
+&lt;li&gt;海水深度数据来自于 Smith and Sandwell 的全球地形数据和 290 百万个海水深度探测数据&lt;/li&gt;
+&lt;li&gt;GEBCO 数据需要注册方可下载&lt;/li&gt;
+&lt;li&gt;30 弧秒的数据大小为 1.7G&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;本站下载&#34;&gt;本站下载&lt;/h2&gt;
+
+&lt;p&gt;百度网盘: &lt;a href=&#34;https://pan.baidu.com/s/1kVnYXqZ&#34; target=&#34;_blank&#34;&gt;https://pan.baidu.com/s/1kVnYXqZ&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;网盘中 &lt;code&gt;GEBCO_2014.nc&lt;/code&gt; 为 netCDF 格式的数据，可直接用于 GMT 绘图。为了减少数据下载时间，网盘中还提供了 zip、tgz 和 rar 格式的压缩文件，用户可自行下载并解压。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>全球地形起伏数据: ETOPO1</title>
       <link>http://gmt-china.org/blog/etopo1/</link>
       <pubDate>Wed, 23 Nov 2016 00:00:00 +0000</pubDate>
